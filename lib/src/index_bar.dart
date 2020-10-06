@@ -555,7 +555,7 @@ class _BaseIndexBarState extends State<BaseIndexBar> {
       onTapUp: (TapUpDetails details) {
         //_triggerDragEvent(IndexBarDragDetails.actionUp);
       },
-      behavior: HitTestBehavior.translucent,
+      behavior: HitTestBehavior.deferToChild,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: children,
